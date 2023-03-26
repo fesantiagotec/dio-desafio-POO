@@ -10,7 +10,7 @@ public class Dev {
     private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>(); //Usa o LinkedHashSet pq
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 
-    public void InscreverBootcamp(Bootcamp bootcamp){
+    public void inscreverBootcamp(Bootcamp bootcamp){
         this.conteudosInscritos = bootcamp.getConteudos();
         bootcamp.getDevsInscritos().add(this);
     }
